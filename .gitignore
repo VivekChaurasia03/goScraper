@@ -2,3 +2,25 @@
 *.exe
 *.log
 .env
+
+# Go build artifacts
+*.out
+*.test
+*.prof
+
+# sqlc generated files (regenerate with 'sqlc generate')
+internal/database/
+
+# Vendor folder is committed to maintain consistency
+
+# Local development files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
